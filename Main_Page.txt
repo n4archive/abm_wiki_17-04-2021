@@ -1,0 +1,37 @@
+'''Welcome to the Android Boot Manager wiki!'''
+
+<div style="margin-top: 40px; width: 350px; padding-left: 15px">
+<!-- OVERVIEW -->
+{{mainpage-button|smartphone|Devices}}
+{{mainpage-button|emblem-shared|:Category:Community|Community}}
+{{mainpage-button|dialog-question|FAQ}}
+{{mainpage-button|application-menu|Supported_platforms|Platforms supported by ABM}}
+
+<!-- GUIDES -->
+{{mainpage-button|document-save|Installation_Tutorial|Installation}}
+{{mainpage-button|application-menu|Porting_to_a_new_device|Porting}}
+
+
+<!-- CONTRIBUTING / TECHNICAL STUFF -->
+{{mainpage-button|emote-love|Contributing}}
+{{mainpage-button|folder-documents|:Category:Technical Reference|Technical Reference}}
+{{mainpage-button|emblem-important|Troubleshooting}}
+
+</div>
+
+=== Features ===
+* Easily flash the bootloader
+* Bootmenu at start time
+* Partition your SD card
+* Multiboot
+* Install Android, Ubuntu Touch, Sailfish OS
+* Use functions for power users
+* Autoboot specific system after an Timeout
+
+=== Use Cases ===
+Dualbooting is useful...
+
+* ...to try out an alternative operating system (without overwriting the existing installation)
+* ...boot from a secure external storage (SD card) for special security like
+** ensuring an untampered operating system
+** prevent persistent viruses and tracking software

@@ -1,0 +1,112 @@
+{{Infobox
+| name=Infobox
+| bodystyle=
+| title = {{{manufacturer|}}} {{{name|}}}
+| titlestyle = 
+
+|header1 =
+|label1  = Manufacturer
+|data1   = {{{manufacturer|}}}
+|header2 =
+|label2  = Name
+|data2   = {{{name|}}}
+|header3 =
+|label3  = Codename
+|data3   = {{{codename|}}}
+|header4 =
+|label4  = Released
+|data4   = {{{releaseyear|}}}
+|header5 = Hardware
+|label5  =
+|data5   =
+|header6 = 
+|label6  = Chipset
+|data6   = {{{chipset|}}}
+|header7 = 
+|label7  = CPU
+|data7   = {{{cpu|}}}
+|label8  = Display
+|data8   = {{{display|}}}
+|header9 = 
+|label9  = Storage
+|data9   = {{{storage|}}}
+|header10 = 
+|label10  = Memory
+|data10   = {{{memory|}}}
+|header11 = 
+|label11  = Architecture
+|data11   = {{{architecture|}}}
+}}
+
+{{Infobox
+| name=Features
+| bodystyle=
+| title = Features
+| titlestyle = 
+
+|label1  = Bootloader
+|data1   = {{Feature|{{{status_bootloader|}}}}}
+|header2 =
+|label2  = Display
+|data2   = {{Feature|{{{status_display|}}}}}
+|header3 =
+|label3  = Volume/Power Buttons 
+|data3   = {{Feature|{{{status_mainbuttons|}}}}}
+|header4 =
+|label4  = Touchscreen 
+|data4   = {{Feature|{{{status_touchscreen|}}}}}
+|header5 =
+|label5  = USB
+|data5   = {{Feature|{{{status_usb|}}}}}
+|header6 =
+|label6  = Extra buttons
+|data6   = {{Feature|{{{status_extrabuttons|}}}}}
+}}
+<noinclude>
+<templatedata>
+{
+   "params":{
+      "manufacturer":{
+         "label":"Manufacturer",
+         "description":"Name of the original device manufacturer",
+         "example":"Volla",
+         "type":"string",
+         "required":true
+      },
+      "name":{
+         "label":"Name",
+         "description":"Device name excluding manufacturer",
+         "example":"Volla Phone",
+         "type":"string",
+         "required":true
+      },
+      "codename":{
+         "label":"Codename",
+         "description":"Device codename",
+         "example":"yggdrasil",
+         "type":"string",
+         "required":true
+      },
+      "releaseyear":{
+         "label":"Release year",
+         "description":"Year the device was released originally",
+         "example":"2020",
+         "type":"number",
+         "required":true
+      }
+   },
+   "description":"Infobox with device information",
+   "paramOrder":[
+      "manufacturer",
+      "name",
+      "codename",
+      "releaseyear"
+   ]
+}
+</templatedata>
+{{#cargo_declare:_table=Devices|Manufacturer=String|Name=String|Codename=String|Released=Date|Chipset=String|CPU=String|Display=String|Storage=String|Memory=String|StatusBootloader=String|StatusDisplay=String|StatusMainbuttons=String|StatusTouchscreen=String|StatusUSB=String|StatusExtrabuttons=String}}
+</noinclude>
+<includeonly>
+[[Category:Devices]]
+{{#cargo_store:_table=Devices|Manufacturer={{{manufacturer|}}}|Name={{{name|}}}|Codename={{{codename|}}}|Released={{{releaseyear|}}}|Chipset={{{chipset|}}}|CPU={{{cpu|}}}|Display={{{display|}}}|Storage={{{storage|}}}|Memory={{{memory|}}}|StatusBootloader={{{status_bootloader|}}}|StatusDisplay={{{status_display|}}}|StatusButtons={{{status_mainbuttons|}}}|StatusTouchscreen={{{status_touchscreen|}}}|StatusUSB={{{status_usb|}}}|StatusExtraButtons={{{status_extrabuttons|}}}|Architecture={{{architecture|}}} }}
+</includeonly>

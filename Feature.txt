@@ -1,0 +1,1 @@
+{{#ifeq:{{{1|}}}|P| <div class="feature feature-partial">Partial</div> | {{#ifeq:{{{1|}}}|Y| <div class="feature feature-yes">Works</div> | {{#ifeq:{{{1|}}}|N| <div class="feature feature-no">Broken</div> | {{#ifeq:{{{1|}}}|-| <div class="feature feature-unavailable">Unavailable</div> | <div></div> }} }} }} }}

@@ -1,0 +1,59 @@
+This page details the status of ABM ports to various devices. 
+__NOTOC__ __NOCACHE__
+
+=== Supported devices ===
+These are supported device,
+{{#cargo_query:
+tables=Devices
+|fields=CONCAT( '[[',Manufacturer,' ',Name,']]' )=Device,Codename,Chipset,StatusBootloader,StatusDisplay,StatusUSB,StatusTouchscreen
+|order by=Devices.Manufacturer, Devices.Name
+|format=table
+|limit=9999
+|more results text=
+}}
+
+=== Status Legend ===
+
+{| class="wikitable feature-colors"
+! Code
+! Meaning
+|-
+  | Y
+  | Yes, fully implemented
+|-
+  | P
+  | Partially implemented
+|-
+  | N
+  | Not working yet
+|-
+  | 
+  | Untested
+|-
+  | -
+  | Not applicable -- device does not have feature
+|}
+
+==== Columns ====
+
+{| class="wikitable"
+! Column
+! Meaning
+|-
+  | Bootloader
+  | Device have some 1-st or 2-nd stage bootloader, and it do not use no-bootloader-workaround.
+|-
+  | Display
+  | Display is working.
+|-
+  | Volume/power buttons.
+  | Volume and power buttons work in bootloader.
+|-
+  | Touchscreen
+  | Touchscreen is working in bootloader.
+|-
+  | USB
+  | USB is working in bootloader.
+|-
+  | Extra buttons
+  | Some extra buttons work in bootloader.

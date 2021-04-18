@@ -1,0 +1,7 @@
+== General == 
+=== Why do you sometimes call it Dualboot and sometimes Multiboot? ===
+Most people just call it dualboot because even that is unusual on android devices.
+
+== DroidBoot ==
+=== What is DroidBoot? ===
+The boot menu to select your OSes.

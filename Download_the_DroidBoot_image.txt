@@ -1,0 +1,1 @@
+[https://nightly.link/Android-Boot-Manager/droidboot_device_volla_yggdrasil/workflows/main/master/lk%20image.zip Volla Phone]

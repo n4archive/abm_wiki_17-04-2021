@@ -1,0 +1,1 @@
+Mediatek use hardly modded little kernel to boot Linux on their devices, usually lk is flashed to lk partition. Bootloader is not very modding friendly, it do not have fnction to change pixel color, tho that can be implemented. [https://github.com/Android-Boot-Manager/droidboot_device_volla_yggdrasil example of lk with ABM support]

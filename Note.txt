@@ -1,0 +1,11 @@
+<noinclude>
+{{Template}}
+
+== Usage ==
+
+<pre><nowiki>{{note|This page is a work in progress, and is not complete enough at this point to be useful.}}
+</nowiki></pre>
+
+{{note|This page is a work in progress, and is not complete enough at this point to be useful.}}
+
+</noinclude><includeonly><div role="note" class="note" style="padding: 5px 15px; color: #705000; border: 1px solid #fde29b; background-color: #fdf1d1; margin-top: 5px; margin-bottom: 5px; display: block;">{{{1}}}</div></includeonly>

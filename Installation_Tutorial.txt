@@ -1,0 +1,47 @@
+== Important Information ==
+Depending on the manufacturer of your mobile phone, rooting your devise will lead to the termination of your warranty.
+
+
+== Requirements ==
+* Android installed on your phone (Volla/GS290: Android 9 only) (Moto G5: custom ROM only)
+* SD card for installing further ROMs
+** at least class 10 for good experience
+** at least 8 GB for each ROM (more than 20 GB are recommended)
+
+== App Installation ==
+# Install a custom recovery on your phone (TWRP is recommended) ''[Device specific: On the Moto G5, don't use the stock ROM.]''
+# [https://topjohnwu.github.io/Magisk/install.html Install] Magisk to get root rights. You can [https://github.com/topjohnwu/Magisk/releases download] Magisk from github releases.
+# Boot into TWRP, go to ''‘Wipe’'' > ''‘Advanced wipe’'', tick ''‘cache’'', untick all other options and klick on ''‘Repair or Change File System’''. On the next screen, klick on ''‘Change File System’'' and choose 'ext2'. Then apply 'Swipe to Change'.
+# Download the most-recent build of the ABM App from [https://github.com/Android-Boot-Manager/App/releases github releases]. Copy the apk file on your smartphone (eg. via SD card, USB or Bluetooth)
+# Install the App by clicking on the apk file in the Files app. You may be asked to allow installations from non-secure sources...
+
+
+== Testing the installation ==
+# Open the app and allow root access (with Magisk).
+# Check that the app shows ‘Root: OK’. A restart of the app might be required for this.
+
+
+== Installing DroidBoot ==
+# [[Download the DroidBoot image]] and save it to your phone.
+# Open the app, choose ''‘Install’'', then ''‘Next’''. If an error regarding a BSP-codename appears, simply choose your device manually. Then press ''‘Next’''.
+# The app will ask for a name (of the OS). ''Android'' suits well, but choose according to your own preferences.
+# The app will ask for the "DroidBoot" file. Choose the DroidBoot img.
+# The installation should start.
+# When an ''‘OK’'' button appears, you are done.
+# After a reboot of the phone the boot menu will appear. Via volume up and down buttons you can switch between the options and confirm it with power button.
+
+The app and the boot menu are now installed. The next step is prepare the SD card before you can install the OS of your choice.
+
+== Preparation of the SD card ==
+# Format the SD card on your mobile as external storage.
+# Open the ABM app and move to the tab for SD card.
+# Allow it to convert the SD card. No worries, you don’t need to backup anything, since you just formatted the card.
+# Delete the ‘external storage’ partition by clicking on it and choosing ''‘Delete’''.
+
+== Next steps ==
+
+Now choose the specific guide for the OS you would like to install.
+
+[[Install Ubuntu Touch]]
+
+[[Install Sailfish OS]]

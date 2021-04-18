@@ -1,0 +1,16 @@
+<noinclude>{{Template:Template}}{{DISPLAYTITLE:Template:issue}}
+
+Display a nice button on the main wiki page, along with an icon.
+
+==Usage==
+  <nowiki>{{mainpage-button|icon|wikipage|title}}</nowiki>
+
+==Example==
+
+ <nowiki>{{mainpage-button|smartphone|Devices}}</nowiki>
+{{mainpage-button|smartphone|Devices}}
+
+ <nowiki>{{mainpage-button|application-utilities|:Category:Guides|Guides}}</nowiki>
+{{mainpage-button|applications-utilities|:Category:Guide|Guides}}
+
+</noinclude><includeonly><span style="display:block; height: 40px; float: left;">[[File:Device.png|left|32px]][[{{{2}}}|<span style="border: 1px solid lightgray; background: #f8f8f8; padding: 5px; width:200px; height: 20px; line-height: 20px; display: inline-block; margin-left: 5px;">{{{3|{{{2}}}}}}</span>]]</span><span style="clear:left; display: block"></span></includeonly>

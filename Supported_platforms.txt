@@ -1,0 +1,15 @@
+Android Boot Manager consists of 2 parts, android app with sh backend (platform independent) and a "Droidboot" that stands for 2nd stage or 1st stage bootloader, in case it is 2nd stage bootloader, it is flashed to boot partition instead of linux kernel. In case it is 1st stage bootloader it replaces a bootloader of phone (like aboot, abl or lk partition), this is of course a better way of doing things, but sadly most devices needs signed bootloader, so modifying it is impossible.
+ABM currently support such:
+
+==1st stage bootloaders==
+*Official supported
+**[[MTK LK | MTK little kernel based bootloader]]
+*Work in progress ports
+**[[qcom abl | Qualcomm Android Boot Loader efi app]]
+**[[U-boot | Das U-Boot]]
+
+==2nd stage bootloaders==
+*[[lk2nd | little kernel based bootloader for older Qualcomm SOCs]]
+
+==Not a bootloaders==
+*[[no-bl-workaround | Workaround for devices that do not have opensource 2nd stag bootloadr, based on Linux and dynamic boot re flashing]]

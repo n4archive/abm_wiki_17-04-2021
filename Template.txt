@@ -1,0 +1,25 @@
+<noinclude>
+{{Template}}
+'''A special template for use in ''all'' template pages.'''
+
+== Usage ==
+
+This template should be added at the very beginning of all template pages between 'noinclude' tags:
+
+ &lt;noinclude&gt;
+ <nowiki>{{Template}}</nowiki>
+ &lt;/noinclude&gt;
+
+A brief description of the template, usage instructions, and output example should also be added between the 'noinclude' tags (as in this template).
+
+The template wikitext must be written between 'includeonly' tags:
+ 
+ &lt;includeonly&gt;...&lt;/includeonly&gt;
+
+== See also ==
+* [https://wiki.archlinux.org/index.php/Template:Template ArchWiki: Template:Template]: the page on which this one is based on
+* [https://wiki.archlinux.org/index.php/Help:Template ArchWiki: Help:Template]: advanced usage instructions
+
+</noinclude><includeonly><div class="toc" style="margin-bottom: 1em;">This page is a template. It contains no ABM-related information, but should be used as part of other articles.<br>
+Check out [[Special:Whatlinkshere/Template:{{PAGENAME}}|all pages using this template]] and feel free to discuss it in the gitlab [https://gitlab.com/postmarketOS/wiki/-/issues issues].<br>
+For more information, read [[Templates]] and [[Template:Template]].</div></includeonly>

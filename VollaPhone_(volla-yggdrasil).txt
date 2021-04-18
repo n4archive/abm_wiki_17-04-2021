@@ -1,0 +1,18 @@
+{{Infobox device
+| manufacturer = Volla
+| name = Volla Phone
+| codename = volla-yggdrail
+| releaseyear = 2020
+| chipset = Mediatek Helio P23 (MT6763V)
+| cpu = Octa-core 2.0 GHz Cortex-A53
+| display = 2340 x 1080 pixels, 6.3-inch IPS LCD
+| storage = 64 GB
+| memory = 4 GB
+| architecture = aarch64
+| status_bootloader = Y
+| status_display = Y
+| status_mainbuttons = Y
+| status_touchscreen  = N
+| status_usb = P
+| status_extrabuttons = -
+}}

@@ -1,0 +1,19 @@
+# Safe the [https://gitlab.com/sailfishos-porters-ci/yggdrasil-ci/-/jobs/1027015711/artifacts/download SFOS zip] to your phone storage and extract it.
+# Open the ABM app, move to the tab for SD card and choose the free space to create a new partition.
+# Choose the type ''‘OS user data’''. Its size should be at least 8 GB (the least we tested) and as much as you want. SFOS will use 2 GB of this space. Then press ''‘Create’''
+# Open the ROMs tab.
+# Choose the smartphone download symbol at the bottom.
+# Read the note at the bottom carefully. If you accept the risk, press ''‘Next’''.
+# Choose Sailfish OS and click ''‘Next’''.
+# The app will ask you for the boot image. Click on ''‘Next’'' and browse to the location where you extracted the SFOS zip to, choose the boot image and when the app shows ‘File selected’, click on ''Next''. 
+# Afterwards the app wants to know the correct OS User data partition. Take care to choose the right one from the drop down menu. Press ''‘Next’''.
+# Then the app will ask you for the system image. Also choose the location of this file.
+# It will now copy for a while (about 20 minutes on a SanDisk Extreme PRO 128GB). Press ''‘Next’''.
+# Then you can enter your chosen name of the ROM and click ''‘Next’''. Press ''‘Next’'' until the app notifies you that it is ready for installing your chosen ROM. If you would like to stop the installation, click ''‘Cancel’''. Nothing has been changed so far except for your SD. But if you want to proceed with the installation, click ''‘Next’''.
+# The installation should start
+# If ‘OK’ appears at the bottom of the text, you are done with installing SFOS.
+
+
+Back to [[Installation Tutorial]]
+
+Continue to [[Install Ubuntu Touch]]
